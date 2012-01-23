@@ -7,11 +7,9 @@ Gem::Specification.new do |s|
   s.version     = Gharpay::VERSION
   s.authors     = ["Jeyant Randhawa"]
   s.email       = ["jeyant@joshsoftware.com"]
-  s.homepage    = ""
+  s.homepage    = "http://github.com/joshsoftware/gharpay"
   s.summary     = %q{Gharpay API integration}
   s.description = %q{Gharpay Cash on Delivery API integration}
-
-  s.rubyforge_project = "gharpay"
 
   s.add_dependency(%q<httparty>, ["~> 0.8.0"])
 
