@@ -5,7 +5,7 @@ require "gharpay/version"
 Gem::Specification.new do |s|
   s.name        = "gharpay"
   s.version     = Gharpay::VERSION
-  s.authors     = ["Jeyant"]
+  s.authors     = ["Jeyant Randhawa"]
   s.email       = ["jeyant@joshsoftware.com"]
   s.homepage    = ""
   s.summary     = %q{Gharpay API integration}
