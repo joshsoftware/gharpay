@@ -3,8 +3,12 @@ module Gharpay
     include HTTParty
   
     format :xml
-    base_uri "http://services.gharpay.in/rest/GharpayService"
-  
+    if Rails.env == 'production'
+      base_uri "http://webservices.gharpay.in/rest/GharpayService"
+    else
+      base_uri "http://services.gharpay.in/rest/GharpayService"
+    end
+
     def initialize(username, password)
       @creds = {"username" => username, "password" => password }
     end
