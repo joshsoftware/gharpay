@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{Gharpay API integration}
   s.description = %q{Gharpay Cash on Delivery API integration}
 
-  s.add_dependency(%q<httparty>, ["~> 0.8.0"])
+  s.add_dependency(%q<httparty>, ["~> 0.13"])
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
